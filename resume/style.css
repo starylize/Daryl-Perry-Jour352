@@ -1,0 +1,20 @@
+body {
+    font-family: 'open-sans', 'arial', 'sans-serif';
+    size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3em;
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: 'open-sans', 'arial', 'sans-serif';
+    size: 1em;
+    color: #444;
+}
+
