@@ -5,11 +5,15 @@ body {
     font-weight: 400;
 }
 
-h1 {
+#name {
     font-size: 3em;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 p {
@@ -18,10 +22,36 @@ p {
     color: #444;
 }
 
-h2 {
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color: white;
 }
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+
+ul {
+    font-size: 1em;
+}
+
+
+
+
+
+
 
