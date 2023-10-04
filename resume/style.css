@@ -1,8 +1,14 @@
-body {
-    font-family: 'open-sans', 'arial', 'sans-serif';
+BODY {
+    font-family: 'Open-Sans', arial, 'sans-serif';
     size: 1em;
     color: #444;
     font-weight: 400;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #name {
@@ -16,42 +22,95 @@ body {
     margin: 0 auto;
 }
 
-p {
-    font-family: 'open-sans', 'arial', 'sans-serif';
+.description {
+    font-family: 'Open-Sans', 'arial', 'sans-serif';
     size: 1em;
     color: #444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
+    font-weight: 400;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 70%;
+    min-width: 300px;
 }
 
-h3 {
+.jobtitle {
     font-weight: 600;
     font-size: 1.5em;
 }
 
-h4 {
+.organization {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
-h5 {
+.date {
     font-weight: 400;
     font-style: italic;
     font-size: 1em;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-ul {
+.ul {
     font-size: 1em;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline;
+}
 
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+#do {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+#title {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+.top {
+    width: 60%;
+    min-width: 300;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #33485e;
+}
 
 
