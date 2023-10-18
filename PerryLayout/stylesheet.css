@@ -1,0 +1,35 @@
+#content {
+    margin: auto;
+    width: 900px;
+}
+
+h1 {
+    font-family: Futura;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+blockquote {
+    font-family: Futura, helvetica;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
