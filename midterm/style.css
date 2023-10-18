@@ -7,8 +7,8 @@ BODY {
 }
 
 #container {
-    column-count: 1;
     margin: auto;
+    width:95%;
 }
 
 h1 {
