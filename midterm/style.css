@@ -79,3 +79,7 @@ blockquote {
     font-size: 50px;
     text-align: center;
 }
+
+.credits {
+    font-style: italic;
+}
