@@ -15,9 +15,23 @@ BODY {
     color: #00FF00;
 } /* CSS link hover (green) */
 
-#container {
+.container {
     margin: auto;
     width: 100%;
+    max-width: 1200px;
+}
+
+.row {
+    margin: auto;
+}
+
+.text {
+    color: white;
+}
+
+.footer {
+    margin: auto;
+    width: 90%;
     max-width: 1200px;
 }
 
@@ -39,7 +53,7 @@ h3 {
 }
 
 @media only screen and (max-width: 500px) {
-    #container {
+    .container {
         max-width: 90%;
     }
 }

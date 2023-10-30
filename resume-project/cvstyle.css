@@ -24,13 +24,18 @@ BODY {
     max-width: 1200px;
 }
 
+.row {
+    margin: auto;
+    padding-left: 50px;
+}
+
 #name {
     font-size: 3em;
     color: #000000;
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid #000000;
-    width: 60%;
+    width: 70%;
     min-width: 300px;
     margin: 0 auto;
 }
@@ -83,6 +88,15 @@ BODY {
     font-size: 1em;
 }
 
+.text {
+    color: white;
+}
+
+.footer {
+    margin: auto;
+    width: 100%;
+}
+
 #degrees {
     margin-top: 5px;
 }
@@ -98,16 +112,8 @@ BODY {
     margin-top: 20px;
 }
 
-.top {
-    width: 60%;
-    min-width: 300px;
-    margin:0 auto;
-    margin-bottom: 30px;
-}
-
 img {
-    max-width: 70%;
-    margin: auto;
+    max-width: 90%;
 }
 
 h3 {
@@ -115,8 +121,6 @@ h3 {
     text-align: center;
     color: #000000;
     font-weight: bold;
-    padding-left: 50px;
-    padding-top: 25px;
 }
 
 p {
@@ -124,7 +128,8 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
-    #container {
+    container {
         max-width: 90%;
     }
 }
+
