@@ -1,0 +1,225 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: 'Hedvig Letters Serif', 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-size: 60px;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Hedvig Letters Serif', 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.chap-head {
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f23030;
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+
+h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.col-md-12 {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 25px;
+}
+
+.head-caption {
+    font-style: italic;
+    color: black;
+    width: 85%;
+    margin: auto;
+    opacity: 90%;
+    padding-top: 10px;
+}
+
+.caption {
+    font-style: italic;
+    color: black;
+    margin: auto;
+    opacity: 90%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.col {
+    font-family: 'Hedvig Letters Serif', 'Times New Roman', Times, serif;;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* tophat */
+
+.nav-logo {
+    color: white;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.red {
+    color: #f23030;
+}
+
+/* hero area */
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-text {
+    font-weight: bold;
+}
+
+/* pull quote */
+
+.quote {
+    font-size: 3em;
+    color: #f23030;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid #f23030;
+    margin-top: 20px;
+}
+
+.quote-attribution {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f23030;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+.box {
+    width: 1000px;
+    height: 510px;
+    border: 1px solid black;
+    margin: auto;
+    font-family: Helvetica;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+  }
+
+  .box-head {
+    font-weight: lighter;
+    text-align: center;
+    background: #f23030;
+    color: white;
+  }
+
+  .box-text {
+    font-family: Helvetica;
+    padding-top: 5px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .source {
+    font-style: italic;
+  }
+
+  ul {
+    font-family: Helvetica;
+    padding-top: 10px;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  /* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #f23030;
+  }
+
+  .text {
+    margin: auto;
+  }
+
+
+/* media queries */
+@media(max-width: 650px) {
+
+    p {
+        padding-left: 20px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    .hero-text {
+        font-size: .9em;
+    }
+
+    .box {
+        width: 95%;
+        font-size: 14px;
+        width: fit-content;
+        height:fit-content;
+    }
+
+    .quote {
+        width: fit-content;
+    }
+
+    .quote-attribution {
+        width: fit-content;
+    }
+    
+}
